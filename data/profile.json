@@ -1,0 +1,219 @@
+{
+  "name": "Mani Gopi Reddy Challa",
+  "headline": "Java Full Stack Developer | DevOps and Production Support Engineer",
+  "status": "Working on T-Mobile collections platform",
+  "location": "Bengaluru, India",
+  "contact": [
+    {
+      "label": "Email",
+      "value": "manigopireddychalla15@gmail.com"
+    },
+    {
+      "label": "Phone",
+      "value": "+91 93810 33840"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/manigopireddychalla",
+      "href": "https://linkedin.com/in/manigopireddychalla"
+    },
+    {
+      "label": "Location",
+      "value": "Bengaluru, India"
+    }
+  ],
+  "summary": "Java Full Stack Developer with 3+ years of experience delivering secure, scalable microservices (Spring Boot, Kafka, React.js) for an enterprise telecom client. Currently supporting and modernising a large collections platform, covering production support, incident and root cause management, CI/CD and Kubernetes releases, and Oracle GoldenGate data replication to Azure Databricks. Skilled in API security (OAuth 2.0/JWT, Entra ID) and cross-team coordination. AZ-900 and ISTQB certified.",
+  "stats": [
+    {
+      "value": "3+",
+      "label": "years in enterprise delivery"
+    },
+    {
+      "value": "95%",
+      "label": "unit test coverage reached"
+    },
+    {
+      "value": "0",
+      "label": "downtime on security and Spring Boot 3 migrations"
+    },
+    {
+      "value": "4",
+      "label": "certifications"
+    }
+  ],
+  "competencies": [
+    "Microservices Architecture",
+    "REST API Design",
+    "Production Support and Incident Management",
+    "Root Cause Analysis",
+    "CI/CD and Release Management",
+    "Azure Cloud",
+    "API and Identity Security"
+  ],
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        "Java 8/11/17/21",
+        "JavaScript (ES6+)",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "group": "Frameworks",
+      "items": [
+        "Spring Boot 3.x",
+        "Spring Security",
+        "Spring Data JPA",
+        "Hibernate",
+        "React.js",
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "group": "Messaging and Data",
+      "items": [
+        "Apache Kafka",
+        "RabbitMQ",
+        "Oracle GoldenGate",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Azure Data Factory",
+        "Azure Databricks"
+      ]
+    },
+    {
+      "group": "DevOps and Cloud",
+      "items": [
+        "GitLab CI/CD",
+        "Docker",
+        "Kubernetes",
+        "Maven",
+        "Gradle",
+        "Git",
+        "Control-M",
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "group": "Security",
+      "items": [
+        "OAuth 2.0",
+        "JWT",
+        "Microsoft Entra ID (Azure AD)",
+        "API Gateway security"
+      ]
+    },
+    {
+      "group": "Monitoring and Testing",
+      "items": [
+        "Splunk",
+        "Grafana",
+        "Tableau",
+        "JUnit 5",
+        "Mockito",
+        "Postman",
+        "JIRA"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Collections Domain: DevOps and Production Support",
+      "company": "T-Mobile (via HCLTech)",
+      "place": "Bengaluru",
+      "period": "Nov 2025 - Present",
+      "current": true,
+      "points": [
+        [
+          "Production support: ",
+          "monitor File 3 and File 7 processing and weekly and monthly batch cycles across SAMSON, DEEP IO, CDES, TRIAD, HOMER and CFAM, keeping inbound and outbound flows on schedule."
+        ],
+        [
+          "Incident management: ",
+          "triage failures using Splunk, Grafana and Control-M job status, identify root cause, raise incidents and coordinate with owning teams through to resolution."
+        ],
+        [
+          "DevOps: ",
+          "release Dockerized services on Kubernetes through GitLab CI/CD with rollback support; run Azure Data Factory pipelines and Control-M schedules with Teams alerting; built Grafana, Splunk and Tableau dashboards."
+        ],
+        [
+          "Data replication: ",
+          "implementing Oracle GoldenGate change data capture from ADM DB to Azure Databricks (Extract, trail files, distribution path, Replicat, ADLS staging, Delta tables) to reduce reliance on batch loads."
+        ],
+        [
+          "AI automation (Argus POC): ",
+          "multi-agent AI system that monitors end-to-end flows, detects stuck or failed flows and analyzes Splunk logs to pinpoint the cause."
+        ]
+      ]
+    },
+    {
+      "role": "Java Full Stack Developer",
+      "company": "T-Mobile (via HCLTech)",
+      "place": "Bengaluru",
+      "period": "Sep 2024 - Sep 2025",
+      "points": [
+        [
+          "Security migration: ",
+          "moved API authentication from Apigee to Microsoft Entra ID (OAuth 2.0/JWT) across multiple services with zero downtime; secured REST endpoints including /actuator/**."
+        ],
+        [
+          "Modernisation: ",
+          "upgraded services to Spring Boot 3.x and Java 21 with zero downtime, clearing all critical and high-severity vulnerabilities and raising unit test coverage to 95%."
+        ],
+        [
+          "Event-driven delivery: ",
+          "built Kafka pipelines and a React.js console to manage client app IDs and OAuth scopes."
+        ]
+      ]
+    },
+    {
+      "role": "Associate Software Engineer",
+      "company": "Expleo Solutions Pvt Ltd",
+      "place": "Chennai",
+      "period": "Sep 2023 - Sep 2024",
+      "points": [
+        [
+          "",
+          "Upgraded Hibernate, Jackson and Apache Commons and fixed deprecated APIs for Java 21."
+        ],
+        [
+          "",
+          "Developed Kafka microservices using topic partitioning and consumer groups for faster real-time processing."
+        ],
+        [
+          "",
+          "Built GitLab CI/CD pipelines and Maven/Gradle builds for development, staging and production."
+        ]
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "code": "AZ-900"
+    },
+    {
+      "name": "ISTQB Certified Tester",
+      "code": "ISTQB"
+    },
+    {
+      "name": "Claude Certified Developer - Foundations",
+      "code": "CCDV-F"
+    },
+    {
+      "name": "JavaScript and React.js",
+      "code": "Edyoda"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "school": "Acharya Nagarjuna University, Bapatla, Andhra Pradesh",
+      "period": "Jun 2018 - Apr 2022"
+    }
+  ]
+}

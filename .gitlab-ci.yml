@@ -1,0 +1,21 @@
+# Deploys the static site to GitLab Pages on every push to the default branch.
+# Live URL: https://<your-username>.gitlab.io/<project-name>/
+stages: [validate, deploy]
+
+validate:
+  stage: validate
+  image: node:20-alpine
+  script:
+    - node -e "JSON.parse(require('fs').readFileSync('data/profile.json','utf8')); console.log('profile.json is valid')"
+    - node --check js/app.js
+
+pages:
+  stage: deploy
+  image: alpine:3.20
+  script:
+    - mkdir -p public
+    - cp -r index.html css js data public/
+  artifacts:
+    paths: [public]
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
